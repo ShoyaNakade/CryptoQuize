@@ -1,0 +1,74 @@
+[
+    {
+        "level": 1,
+        "no": 1,
+        "question": "仮想通貨の最初の案を考えた人は？",
+        "answer": "サトシ",
+        "answerCandidates": ["小野小町","聖徳太子","卑弥呼","サトシ"],
+    },
+    {
+        "level": 1,
+        "no": 2,
+        "question": "ガバナンストークンではないものは？",
+        "answer": "GST",
+        "answerCandidates": ["GST","GMT","SOL","BNB"],
+    },
+    {
+        "level": 1,
+        "no": 3,
+        "question": "WEB3界隈で、歩いて稼ぐゲームのことをなんという？",
+        "answer": "MoveToEarn",
+        "answerCandidates": ["MoveToEarn","WalkToEarn","MoveToBurn","WalkToBurn"],
+    },
+    {
+        "level": 1,
+        "no": 4,
+        "question": "WEB1時代の特徴といえばどれ？",
+        "answer": "一方通行",
+        "answerCandidates": ["コミュニケーション","分散型","一方通行","IoT"],
+    },
+    {
+        "level": 1,
+        "no": 5,
+        "question": "WEB2時代の特徴といえばどれ？",
+        "answer": "コミュニケーション",
+        "answerCandidates": ["コミュニケーション","分散型","一方通行","IoT"],
+    },
+    {
+        "level": 1,
+        "no": 6,
+        "question": "WEB3時代の特徴といえばどれ？",
+        "answer": "分散型",
+        "answerCandidates": ["コミュニケーション","分散型","一方通行","IoT"],
+    },
+    {
+        "level": 1,
+        "no": 7,
+        "question": "初めて仮想通貨で取引成立した商品は何？",
+        "answer": "ピザ",
+        "answerCandidates": ["洋服","自動車","雇用","ピザ"],
+    },
+    {
+        "level": 1,
+        "no": 8,
+        "question": "初めてビットコインが送金された年はいつ？",
+        "answer": "2009",
+        "answerCandidates": ["2003","2009","2011","2013"],
+    },
+    {
+        "level": 1,
+        "no": 9,
+        "question": "2010年にあなたが1BTC買っていたら、2022年現在の利益はおよそいくら？",
+        "answer": "500万",
+        "answerCandidates": ["1万","50万","100万","500万","5000万"],
+    },
+    {
+        "level": 1,
+        "no": 10,
+        "question": "ガス代が最も安いのは？",
+        "answer": "XRP",
+        "answerCandidates": ["BTC","XRP","BNB","ETH"],
+    }
+    
+    
+]

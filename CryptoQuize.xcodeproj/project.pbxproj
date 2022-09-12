@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1F5C1928CF733700F62AB1 /* QuizeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D1F5C1828CF733700F62AB1 /* QuizeData.json */; };
 		4D31762228C3451600D635B8 /* CryptoQuizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31762128C3451600D635B8 /* CryptoQuizeApp.swift */; };
 		4D31762428C3451600D635B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31762328C3451600D635B8 /* ContentView.swift */; };
 		4D31762628C3451800D635B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D31762528C3451800D635B8 /* Assets.xcassets */; };
@@ -14,6 +15,13 @@
 		4D31763328C3451800D635B8 /* CryptoQuizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31763228C3451800D635B8 /* CryptoQuizeTests.swift */; };
 		4D31763D28C3451800D635B8 /* CryptoQuizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31763C28C3451800D635B8 /* CryptoQuizeUITests.swift */; };
 		4D31763F28C3451800D635B8 /* CryptoQuizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31763E28C3451800D635B8 /* CryptoQuizeUITestsLaunchTests.swift */; };
+		4D31765528C346BC00D635B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31765428C346BC00D635B8 /* HomeView.swift */; };
+		4D31765728C346CA00D635B8 /* QuizeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31765628C346CA00D635B8 /* QuizeListView.swift */; };
+		4D31765928C346D700D635B8 /* QuizeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31765828C346D700D635B8 /* QuizeMainView.swift */; };
+		4D31765B28C3470300D635B8 /* QuizeAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31765A28C3470300D635B8 /* QuizeAnswerView.swift */; };
+		4D31765D28C3471300D635B8 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31765C28C3471300D635B8 /* SettingView.swift */; };
+		4D78146428CD58A300441896 /* QuizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78146328CD58A300441896 /* QuizeModel.swift */; };
+		4D78146828CD5A5100441896 /* QuizeMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D78146728CD5A5100441896 /* QuizeMainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1F5C1828CF733700F62AB1 /* QuizeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QuizeData.json; sourceTree = "<group>"; };
 		4D31761E28C3451600D635B8 /* CryptoQuize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoQuize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31762128C3451600D635B8 /* CryptoQuizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuizeApp.swift; sourceTree = "<group>"; };
 		4D31762328C3451600D635B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		4D31763828C3451800D635B8 /* CryptoQuizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoQuizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31763C28C3451800D635B8 /* CryptoQuizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuizeUITests.swift; sourceTree = "<group>"; };
 		4D31763E28C3451800D635B8 /* CryptoQuizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoQuizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D31765428C346BC00D635B8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D31765628C346CA00D635B8 /* QuizeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeListView.swift; sourceTree = "<group>"; };
+		4D31765828C346D700D635B8 /* QuizeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeMainView.swift; sourceTree = "<group>"; };
+		4D31765A28C3470300D635B8 /* QuizeAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeAnswerView.swift; sourceTree = "<group>"; };
+		4D31765C28C3471300D635B8 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		4D78146328CD58A300441896 /* QuizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeModel.swift; sourceTree = "<group>"; };
+		4D78146728CD5A5100441896 /* QuizeMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizeMainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1F5C1728CF730400F62AB1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D1F5C1828CF733700F62AB1 /* QuizeData.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		4D31761528C3451600D635B8 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +118,11 @@
 		4D31762028C3451600D635B8 /* CryptoQuize */ = {
 			isa = PBXGroup;
 			children = (
+				4D1F5C1728CF730400F62AB1 /* Resource */,
+				4D31765328C3467700D635B8 /* Utils */,
+				4D31765228C3465500D635B8 /* Network */,
+				4D31765128C3464C00D635B8 /* Model */,
+				4D31764B28C3454C00D635B8 /* VIew */,
 				4D31762128C3451600D635B8 /* CryptoQuizeApp.swift */,
 				4D31762328C3451600D635B8 /* ContentView.swift */,
 				4D31762528C3451800D635B8 /* Assets.xcassets */,
@@ -125,6 +154,73 @@
 				4D31763E28C3451800D635B8 /* CryptoQuizeUITestsLaunchTests.swift */,
 			);
 			path = CryptoQuizeUITests;
+			sourceTree = "<group>";
+		};
+		4D31764B28C3454C00D635B8 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				4D31765028C3463400D635B8 /* setting */,
+				4D31764F28C345DD00D635B8 /* quizeMain */,
+				4D31764E28C3458900D635B8 /* quizeList */,
+				4D31764D28C3457100D635B8 /* home */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		4D31764D28C3457100D635B8 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4D31765428C346BC00D635B8 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4D31764E28C3458900D635B8 /* quizeList */ = {
+			isa = PBXGroup;
+			children = (
+				4D31765628C346CA00D635B8 /* QuizeListView.swift */,
+			);
+			path = quizeList;
+			sourceTree = "<group>";
+		};
+		4D31764F28C345DD00D635B8 /* quizeMain */ = {
+			isa = PBXGroup;
+			children = (
+				4D31765828C346D700D635B8 /* QuizeMainView.swift */,
+				4D31765A28C3470300D635B8 /* QuizeAnswerView.swift */,
+				4D78146728CD5A5100441896 /* QuizeMainViewModel.swift */,
+			);
+			path = quizeMain;
+			sourceTree = "<group>";
+		};
+		4D31765028C3463400D635B8 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				4D31765C28C3471300D635B8 /* SettingView.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		4D31765128C3464C00D635B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D78146328CD58A300441896 /* QuizeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D31765228C3465500D635B8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4D31765328C3467700D635B8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +329,7 @@
 			files = (
 				4D31762928C3451800D635B8 /* Preview Assets.xcassets in Resources */,
 				4D31762628C3451800D635B8 /* Assets.xcassets in Resources */,
+				4D1F5C1928CF733700F62AB1 /* QuizeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +354,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D31765528C346BC00D635B8 /* HomeView.swift in Sources */,
 				4D31762428C3451600D635B8 /* ContentView.swift in Sources */,
+				4D78146428CD58A300441896 /* QuizeModel.swift in Sources */,
+				4D31765928C346D700D635B8 /* QuizeMainView.swift in Sources */,
+				4D31765D28C3471300D635B8 /* SettingView.swift in Sources */,
 				4D31762228C3451600D635B8 /* CryptoQuizeApp.swift in Sources */,
+				4D31765728C346CA00D635B8 /* QuizeListView.swift in Sources */,
+				4D78146828CD5A5100441896 /* QuizeMainViewModel.swift in Sources */,
+				4D31765B28C3470300D635B8 /* QuizeAnswerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
